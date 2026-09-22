@@ -200,6 +200,7 @@ After rebooting, the device should start from slot B and boot into Fedora.
 1. **Plasma Mobile crashes on Fedora 44, 45, and rawhide** – Desktop crashes during startup. Only **Fedora 43** is confirmed working.
 2. **Partial mobile UI is accessible** – Even when the desktop crashes, some mobile shell components still function: the first-boot setup wizard, lock screen password input, and the power menu (shutdown/restart/logout).
 3. I switched from SDDM to `plasma-login-manager` (SDDM is deprecated on Fedora). This **may** resolve the Plasma Mobile crash, but I have **not tested it yet**. Feedback welcome.
+4. **KDE Plasma Settings shows nothing** – The System Settings window renders empty (blank). Will be tested next month together with Plasma Mobile.
 
 ---
 

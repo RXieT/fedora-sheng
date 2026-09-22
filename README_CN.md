@@ -200,6 +200,7 @@ fastboot reboot
 1. **Plasma Mobile 在 Fedora 44、45 和 rawhide 上崩溃** – 桌面启动时崩溃。仅 **Fedora 43** 确认可用。
 2. **部分移动 UI 仍可访问** – 即使桌面崩溃，部分移动 shell 组件仍可正常工作：首次启动引导、锁屏密码输入、以及电源菜单（关机/重启/注销）。
 3. 我已将 SDDM 替换为 `plasma-login-manager`（SDDM 在 Fedora 上已弃用）。这**可能**解决 Plasma Mobile 崩溃的问题，但我**尚未测试**。欢迎反馈。
+4. **KDE Plasma 设置界面什么都不显示** – 系统设置窗口渲染为空（空白）。将在下个月随 Plasma Mobile 一起测试。
 
 ---
 
